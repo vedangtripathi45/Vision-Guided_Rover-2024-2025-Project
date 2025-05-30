@@ -65,19 +65,25 @@ Communication: **Jetson Nano ↔ Arduino Uno** via **Serial (USB)**
 
 ## 📁 Repository Structure
 
-├── hardware/ → SolidWorks models and wiring diagrams
-| 
-|  ├── solidworks/ → CAD assemblies and parts
-|  |
-|  └── schematics/ → Circuit layouts
-|
-├── arduino/ → Arduino code for PID and motor control
+──> hardware/ → SolidWorks models and wiring diagrams
+
+   ── solidworks/ → CAD assemblies and parts
+
+   ── schematics/ → Circuit layouts
+
+──> arduino/ → Arduino code for PID and motor control
  
-  ├── motor_control/
-│ └── pid_control/
-├── software/ → Python code for image processing and navigation
-│ ├── computer_vision/
-│ └── serial_comm/
-├── docs/ →flowchart, equations etc.
-├── README.md → You're here!
-└── .gitignore → Git ignore rules
+   ── motor_control/
+
+   ── pid_control/
+──> software/ → Python code for image processing and navigation
+
+   ── computer_vision/
+
+   ── serial_comm/
+
+──> docs/ →flowchart, equations etc.
+
+──> README.md → You're here!
+
+──> .gitignore → Git ignore rules
