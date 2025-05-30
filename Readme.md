@@ -66,11 +66,11 @@ Communication: **Jetson Nano ↔ Arduino Uno** via **Serial (USB)**
 ## 📁 Repository Structure
 
 ├── hardware/ → SolidWorks models and wiring diagrams
- 
+| 
 |  ├── solidworks/ → CAD assemblies and parts
- 
+|  |
 |  └── schematics/ → Circuit layouts
-
+|
 ├── arduino/ → Arduino code for PID and motor control
  
   ├── motor_control/
