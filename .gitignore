@@ -1,0 +1,7 @@
+__pycache__/
+*.tmp
+*.SLDPRT~
+*.SLDASM~
+*.hex
+*.elf
+.DS_Store
