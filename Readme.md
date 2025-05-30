@@ -40,6 +40,7 @@ It uses computer vision in python for capturing data and image processing, PID f
 ->NumPy
 ->SolidWorks 
 ->PID Control System
+
 ->Serial Communication
 
 ## 🖥️ Hardware Used
@@ -58,5 +59,15 @@ Communication: **Jetson Nano ↔ Arduino Uno** via **Serial (USB)**
 
 ## 📁 Repository Structure
 
-
-<pre> ``` vision-guided-rover-base/ ├── hardware/ # SolidWorks models and wiring diagrams │ ├── solidworks/ # CAD assemblies and parts │ └── schematics/ # Circuit layouts │ ├── arduino/ # Arduino code for PID and motor control │ ├── motor_control/ │ └── pid_control/ │ ├── software/ # Python code for image processing and navigation │ ├── computer_vision/ │ └── serial_comm/ │ ├── docs/ # Flowcharts, equations, and supporting documents ├── README.md # You're here! └── .gitignore # Git ignore rules ``` </pre>
+├── hardware/ → SolidWorks models and wiring diagrams
+│ ├── solidworks/ → CAD assemblies and parts
+│ └── schematics/ → Circuit layouts
+├── arduino/ → Arduino code for PID and motor control
+│ ├── motor_control/
+│ └── pid_control/
+├── software/ → Python code for image processing and navigation
+│ ├── computer_vision/
+│ └── serial_comm/
+├── docs/ →flowchart, equations etc.
+├── README.md → You're here!
+└── .gitignore → Git ignore rules
