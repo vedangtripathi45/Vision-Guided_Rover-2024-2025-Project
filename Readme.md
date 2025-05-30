@@ -34,11 +34,17 @@ It uses computer vision in python for capturing data and image processing, PID f
 ## ⚙️ Tech stacks used for this project :
 
 ->Arduino IDE
+
 ->C++
+
 ->Python 
+
 ->OpenCV
+
 ->NumPy
+
 ->SolidWorks 
+
 ->PID Control System
 
 ->Serial Communication
@@ -60,10 +66,14 @@ Communication: **Jetson Nano ↔ Arduino Uno** via **Serial (USB)**
 ## 📁 Repository Structure
 
 ├── hardware/ → SolidWorks models and wiring diagrams
-│ ├── solidworks/ → CAD assemblies and parts
-│ └── schematics/ → Circuit layouts
+ 
+|  ├── solidworks/ → CAD assemblies and parts
+ 
+|  └── schematics/ → Circuit layouts
+
 ├── arduino/ → Arduino code for PID and motor control
-│ ├── motor_control/
+ 
+  ├── motor_control/
 │ └── pid_control/
 ├── software/ → Python code for image processing and navigation
 │ ├── computer_vision/
