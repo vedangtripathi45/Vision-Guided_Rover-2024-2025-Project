@@ -6,7 +6,7 @@ This is the Robotics Club's annual project repository for the Vision Guided Rove
 The project is about building an autonomous bot that is capable of trversing a specified by itself without any human intervention by using the feed captured by its camera.
 It uses computer vision in python for capturing data and image processing, PID for control. The entire process runs on NVIDIA Jetson Nano and Arduino Uno R3.
 
-## Mentors
+## 👥 Mentors
 
 | Name               | Year           |
 |--------------------|----------------|
@@ -16,13 +16,13 @@ It uses computer vision in python for capturing data and image processing, PID f
 
 
 
-## Team Members
+## 👥 Team Members
 
 |        Name       |
 |-------------------|
 | [Vedang Tripathi] |
 | [Divyansh Pandey] |
-| [Har Agrawal]   |
+| [Harsh Agrawal]   |
 | [Kumaradithya]    |
 | [Kritika Parihar] |
 | [Aman Shukla]     |
@@ -31,7 +31,7 @@ It uses computer vision in python for capturing data and image processing, PID f
 | [Kanishk Agrawal] |
 
 
-## Tech stacks used for this project :
+## ⚙️ Tech stacks used for this project :
 
 ->Arduino IDE
 ->C++
@@ -42,7 +42,7 @@ It uses computer vision in python for capturing data and image processing, PID f
 ->PID Control System
 ->Serial Communication
 
-## Hardware Used
+## 🖥️ Hardware Used
 
 | Component             | Role                                                   |
 |-----------------------|--------------------------------------------------------|
@@ -59,15 +59,4 @@ Communication: **Jetson Nano ↔ Arduino Uno** via **Serial (USB)**
 ## 📁 Repository Structure
 
 
-├── hardware/ → SolidWorks models and wiring diagrams
-│ ├── solidworks/ → CAD assemblies and parts
-│ └── schematics/ → Circuit layouts
-├── arduino/ → Arduino code for PID and motor control
-│ ├── motor_control/
-│ └── pid_control/
-├── software/ → Python code for image processing and navigation
-│ ├── computer_vision/
-│ └── serial_comm/
-├── docs/ →flowchart, equations etc.
-├── README.md → You're here!
-└── .gitignore → Git ignore rules
+<pre> ``` vision-guided-rover-base/ ├── hardware/ # SolidWorks models and wiring diagrams │ ├── solidworks/ # CAD assemblies and parts │ └── schematics/ # Circuit layouts │ ├── arduino/ # Arduino code for PID and motor control │ ├── motor_control/ │ └── pid_control/ │ ├── software/ # Python code for image processing and navigation │ ├── computer_vision/ │ └── serial_comm/ │ ├── docs/ # Flowcharts, equations, and supporting documents ├── README.md # You're here! └── .gitignore # Git ignore rules ``` </pre>
