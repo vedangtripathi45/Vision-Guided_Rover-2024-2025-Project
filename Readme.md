@@ -1,4 +1,4 @@
-# Vision Guided Rover
+## Vision Guided Rover
 Annual Project - Robotics Club, MNNIT Allahabad
 
 This is the Robotics Club's annual project repository for the Vision Guided Rover. It includes Python code for computer vision and navigation, Arduino firmware, and SolidWorks designs.
@@ -16,13 +16,13 @@ It uses computer vision in python for capturing data and image processing, PID f
 
 
 
-### Team Members
+## Team Members
 
 |        Name       |
 |-------------------|
 | [Vedang Tripathi] |
 | [Divyansh Pandey] |
-| [Harsh Agrawal]   |
+| [Har Agrawal]   |
 | [Kumaradithya]    |
 | [Kritika Parihar] |
 | [Aman Shukla]     |
@@ -31,7 +31,7 @@ It uses computer vision in python for capturing data and image processing, PID f
 | [Kanishk Agrawal] |
 
 
-### Tech stacks used for this project :
+## Tech stacks used for this project :
 
 ->Arduino IDE
 ->C++
@@ -42,7 +42,7 @@ It uses computer vision in python for capturing data and image processing, PID f
 ->PID Control System
 ->Serial Communication
 
-#### Hardware Used
+## Hardware Used
 
 | Component             | Role                                                   |
 |-----------------------|--------------------------------------------------------|
@@ -56,7 +56,8 @@ It uses computer vision in python for capturing data and image processing, PID f
 
 Communication: **Jetson Nano ↔ Arduino Uno** via **Serial (USB)**
 
-##### Repository Structure
+## 📁 Repository Structure
+
 
 ├── hardware/ → SolidWorks models and wiring diagrams
 │ ├── solidworks/ → CAD assemblies and parts
