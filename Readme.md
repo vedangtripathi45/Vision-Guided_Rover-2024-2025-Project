@@ -2,7 +2,7 @@
 Annual Project - Robotics Club, MNNIT Allahabad
 
 This is the Robotics Club's annual project repository for the Vision Guided Rover. It includes Python code for computer vision and navigation, Arduino firmware, and SolidWorks designs.
-
+### Access the demo clip and snapshots through this link :- https://drive.google.com/drive/folders/1uYLF-qC_-Q6IVCwVdE_Z3gtKpy9noRSX?usp=sharing
 The project is about building an autonomous bot that is capable of trversing a specified by itself without any human intervention by using the feed captured by its camera.
 It uses computer vision in python for capturing data and image processing, PID for control. The entire process runs on NVIDIA Jetson Nano and Arduino Uno R3.
 
